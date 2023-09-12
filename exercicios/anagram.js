@@ -76,6 +76,7 @@ const teste = () => {
         
         console.log("[Teste Anagrama] Resultado obtido:", resultadoObtido)
         console.log("[Teste Anagrama] Teste teve ", resultadoObtido === teste.resultadoEsperado ? "SUCESSO" : "FALHA")
+        console.log("[Teste Anagrama] ---------------------------------")
     })
 }
 

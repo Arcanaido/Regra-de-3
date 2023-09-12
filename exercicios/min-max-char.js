@@ -61,6 +61,7 @@ const teste = () => {
         
         console.log("[Teste Min - Char] Resultado obtido:", resultadoObtido)
         console.log("[Teste Min - Char] Teste teve ", resultadoObtido === teste.resultadoEsperadoMin ? "SUCESSO" : "FALHA")
+        console.log("[Teste Min - Char] ---------------------------------")
     })
 
     console.log(`[Teste Min - Char] ------------------------------`)
@@ -74,6 +75,7 @@ const teste = () => {
         
         console.log("[Teste Max - Char] Resultado obtido:", resultadoObtido)
         console.log("[Teste Max - Char] Teste teve ", resultadoObtido === teste.resultadoEsperadoMax ? "SUCESSO" : "FALHA")
+        console.log("[Teste Max - Char] ---------------------------------")
     })
 }
 
