@@ -4,8 +4,8 @@
  * Observações:
  * - Essas palavras são chamadas de anagramas
  * - Por exemplo: "Rafael" e "LafaRe" são anagramas
- * - Letras minúsculas são diferentes de maiúsculas ("a" não é o mesmo que "A")
  * - Por exemplo: "Bacana" e "Nabaca" NÃO são anagramas!
+ * - Letras minúsculas são diferentes de maiúsculas ("a" não é o mesmo que "A")
  */
 
 /**
