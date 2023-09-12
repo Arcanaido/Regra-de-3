@@ -1,4 +1,4 @@
-/**
+/** [Médio+]
  * Implementar um código que dada uma palavra, retornar a maior e menor "letra".
  * 
  * Observações:

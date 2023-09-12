@@ -1,4 +1,4 @@
-/**
+/** [Médio]
  * Implementar um código que dada uma lista de números, retorne o menor e o maior.
  * 
  * Restrições:

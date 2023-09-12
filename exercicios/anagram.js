@@ -1,4 +1,4 @@
-/**
+/** [Fácil]
  * Implementar um código que dada duas palavras, ele retorne verdade se ambas tiverem as mesmas letras.
  * 
  * Observações:

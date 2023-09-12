@@ -1,4 +1,4 @@
-/**
+/** [Médio]
  * Implementar um código que retorne a primeira letra que NÃO repete na palavra
  * 
  * Observações:
@@ -12,7 +12,7 @@
  */
 
 /**
- * Retornar verdade se palavra1 e palavra2 são anagramas
+ * Retornar a primeira letra que NÃO repete na palavra
  */
 const primeiraLetraNaoRepetida = (palavra) => {
     // Implementar essa função
