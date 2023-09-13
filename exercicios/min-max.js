@@ -37,8 +37,8 @@ const teste = () => {
     const quantidadeNumeros = Math.round(Math.random() * 100)
 
     const lista = []
-    const menorGerado = maiorNumero + 1
-    const maiorGerado = menorNumero - 1
+    let menorGerado = maiorNumero + 1
+    let maiorGerado = menorNumero - 1
 
     for (let i = 0; i < quantidadeNumeros; i++) {
         const n = menorNumero + Math.floor(Math.random() * (maiorNumero - menorNumero))
