@@ -4,6 +4,7 @@
  * Restrições:
  * - Serão apenas números positivos (maior ou igual a 0)
  * - Não é permitido usar Math.min() nem Math.max()
+ * - A função min() já está implementada COMO UM EXEMPLO. A implementação usa Math.min() e portanto não vale :P
  */
 
 /**
@@ -11,6 +12,13 @@
  */
 const min = (listaDeNumeros) => {
     // Implementar essa função
+    let menorValor = 1000000
+
+    listaDeNumeros.forEach((numero) => {
+        menorValor = Math.min(menorValor, numero)
+    });
+
+    return menorValor
 }
 
 /**
