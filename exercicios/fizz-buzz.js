@@ -10,15 +10,32 @@
 /**
  * Retornar verdade se numero for par, caso contrário retornar falso
  */
-const fizzbuzz = (numeroFinal) => {
-    // Implementar essa função e ajustar apenas os valores abaixo
+const fizzbuzz = ( numeroFinal ) => {
+    
+    let fizzCount = 0
+    let buzzCount = 0
+    let fizzbuzzCount = 0
 
-    return {
-        fizz: 0,
-        buzz: 0,
-        fizzBuzz: 0,
+
+        for ( let i = 1; i <= numeroFinal; i++ ){
+            if ( i % 3 === 0 && i % 5 === 0 ) {
+                fizzbuzzCount++
+            } else if ( i % 3 === 0 ) {
+                fizzCount ++
+            } else if ( i % 5 === 0 ) {
+                buzzCount ++
+            }
+        }
+   
+       
+    
+    return{
+        fizz: fizzCount,
+        buzz: buzzCount,
+        fizzbuzz: fizzbuzzCount,
     }
 }
+
 
 /**
  * Função para testar o resultado das implementações.
