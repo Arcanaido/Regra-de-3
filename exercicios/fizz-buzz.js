@@ -14,12 +14,12 @@ const fizzbuzz = ( numeroFinal ) => {
     
     let fizzCount = 0
     let buzzCount = 0
-    let fizzbuzzCount = 0
+    let fizzBuzzCount = 0
 
 
         for ( let i = 1; i <= numeroFinal; i++ ){
             if ( i % 3 === 0 && i % 5 === 0 ) {
-                fizzbuzzCount++
+                fizzBuzzCount++
             } else if ( i % 3 === 0 ) {
                 fizzCount ++
             } else if ( i % 5 === 0 ) {
@@ -32,7 +32,7 @@ const fizzbuzz = ( numeroFinal ) => {
     return{
         fizz: fizzCount,
         buzz: buzzCount,
-        fizzbuzz: fizzbuzzCount,
+        fizzBuzz: fizzBuzzCount,
     }
 }
 
