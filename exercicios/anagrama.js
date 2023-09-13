@@ -12,7 +12,23 @@
  * Retornar verdade se palavra1 e palavra2 são anagramas
  */
 const anagrama = (palavra1, palavra2) => {
-    // Implementar essa função
+   // transforma as palavras em arrays
+    const arrayPalavra1 = palavra1.split('')
+    const arrayPalavra2 = palavra2.split('')
+// checa se elas tem a mesma largura/tamanho
+    if ( palavra1.length != palavra2.length ) {
+        return false
+    }
+// organiza o array de palavras
+    arrayPalavra1.sort()
+    arrayPalavra2.sort()
+//converte o array de letras de volta para palavras inteiras
+    const string1 = arrayPalavra1.join('')
+    const string2 = arrayPalavra2.join('')
+// compara se as duas palavras são estritamente iguais
+    return string1 === string2
+}
+
 }
 
 /**
