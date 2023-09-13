@@ -15,3 +15,8 @@ Encorajo você a não só resolver os problemas, mas também a criar um código 
 Em cada arquivo está incluso também um pedaço de código que testa sua solução. Basta criar uma página HTML e colocar esse arquivo JavaScript nela que o resultado irá aparecer no console (F12).
 
 Para acelerar o processo, há um arquivo chamado teste.html junto dos testes onde você pode facilmente alterar e testar qual código você quer :)
+
+Veja aqui um exemplo do que esperar no Console:
+
+![Exemplo do que esperar no Console](https://github.com/Arcanaido/Regra-de-3/assets/2124218/60f8990e-ede4-4db0-8e95-26608d6bb933)
+
