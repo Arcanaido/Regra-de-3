@@ -29,8 +29,6 @@ const anagrama = (palavra1, palavra2) => {
     return string1 === string2
 }
 
-}
-
 /**
  * Função para testar o resultado das implementações.
  */
