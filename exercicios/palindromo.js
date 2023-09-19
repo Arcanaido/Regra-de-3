@@ -17,9 +17,14 @@
  * Retornar verdade se palavra é um Palíndromo
  */
 const palindromo = (palavra) => {
-    // Implementar essa função
-}
-
+    let len = Math.floor(palavra.length / 2);
+    for (let i = 0; i < len; i++) {
+      if (palavra[i] !== palavra[palavra.length - i - 1]) {
+        return false;
+      }
+    }
+    return true;
+  }
 /**
  * Função para testar o resultado das implementações.
  */
