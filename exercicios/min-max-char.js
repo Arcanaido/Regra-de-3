@@ -10,13 +10,34 @@
  */
 const minChar = (palavra) => {
     // Implementar essa função
+    let menorLetra = 100000
+    
+    for ( let i = 0; i < palavra.length; i++ ){
+        if ( palavra[i].charCodeAt() < menorLetra ) {
+            menorLetra = palavra[i].charCodeAt() // talvez de merda aqui
+        }
+    }
+
+    return menorLetra
+
 }
+    
 
 /**
  * Retornar a maior letra da palavra.
  */
 const maxChar = (palavra) => {
     // Implementar essa função
+    let maiorLetra = 0
+    
+    for ( let i = 0; i < palavra.length; i++ ){
+        if ( palavra[i].charCodeAt() > maiorLetra ){
+            maiorLetra = palavra [i].charCodeAt()
+        }
+    }  
+    
+    return maiorLetra
+
 }
 
 /**
