@@ -12,13 +12,32 @@
  */
 const min = (listaDeNumeros) => {
     // Implementar essa função
+    
     let menorValor = 1000000
-
-    listaDeNumeros.forEach((numero) => {
-        menorValor = Math.min(menorValor, numero)
-    });
-
+    
+    for( let i = 0; i < listaDeNumeros.length; i++ ){
+        if( listaDeNumeros[i] < menorValor ){
+            menorValor = listaDeNumeros[i]
+        }
+    }
+           
     return menorValor
+}
+
+/**
+ * Retornar o maior número da lista de números recebida
+ */
+const max = (listaDeNumeros) => {
+    // Implementar essa função
+    let maiorValor = 0
+    
+    for( let i = 0; i < listaDeNumeros.length; i++ ){
+        if( listaDeNumeros[i] > maiorValor ){
+            maiorValor = listaDeNumeros[i]
+        }
+    }    
+    
+    return maiorValor
 }
 
 /**
