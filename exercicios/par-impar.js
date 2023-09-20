@@ -10,9 +10,16 @@
  * Retornar verdade se numero for par, caso contrário retornar falso
  */
 const parOuImpar = (numero) => {
-    // Implementar essa função
-}
 
+    if( numero === 0 ){ 
+        return true
+    } else if ( numero % 2 == 0 ){
+        return true
+    } else { 
+        return false
+    }
+
+}
 /**
  * Função para testar o resultado das implementações.
  */
