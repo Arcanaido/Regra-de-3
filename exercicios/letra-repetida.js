@@ -17,6 +17,20 @@
  */
 const primeiraLetraRepetida = (palavra) => {
     // Implementar essa função
+
+    const letrasVistas = new Map()
+
+    for ( let i = 0; i < palavra.length; i++ ) {
+        const letra = palavra[i]
+    }
+
+    if ( letrasVistas.has(letra) ){
+        return letra
+    }
+
+    letrasVistas.set ( letra, true )
+
+    return null
 }
 
 /**
