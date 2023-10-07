@@ -16,6 +16,7 @@
  */
 const primeiraLetraNaoRepetida = (palavra) => {
     // Implementar essa função
+    return new Set (palavra.toUpperCase()).size == palavra.length
 }
 
 /**
